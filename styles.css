@@ -41,6 +41,15 @@
     }
 }
 
+.fonts{
+    font-size: 12px;
+}
+
+@media(max-width:640px){
+    .fonts{
+        line-height: 10px;
+    }
+}
 
 
 .image02{
