@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "BlackFlag";
+    src: url("Friz\ Quadrata\ Bold.otf") format("opentype");
+}
+
+.bf{
+    font-family: "BlackFlag";
+}
+
+.custom-body{
+    margin: 0 auto;
+    width: 1700px;
+
+}
+
+@media (max-width:600px){
+    .custom-body{
+        width: 600px;
+    }
+}
+
+.concerts{
+    font-size: 11px;
+}
+
+@media (min-width:1670px){
+    .concerts{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1536px){
+    .concerts{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:640px){
+    .concerts{
+        font-size: 11px;
+    }
+}
+
+
+
+.image02{
+    width: 100%;
+}
+
+.image:hover{
+    content: url("./images/11.png");
+}
+
+.image02:hover{
+    content: url("./images/12.png");
+}
+
+.textcolor:hover{
+    color: rgb(219 39 119);
+}
+
+.textcolor2:hover{
+    color: black;
+}
